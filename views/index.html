@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<img class="Logo" src="images/Logo.jpg" width="1350" height="350>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Easy Tikets</title>
+
+
+  <link href="css/TicketApp.css" rel="stylesheet">
+</head>
+
+<body background="images/Background.jpg">
+
+
+	
+	<div class="Menu" align="center" >
+          <ul>
+          <li><a href="./index.html">Home</a></li>
+     	  <li><a href="./Login.html">Login</a></li>
+	  <li><a href="#">Register</a></li>
+          <li><a href="./EasyTickets.xml">Concerts</a></li>
+          <li><a href="#">Contact Us </a></li>
+	
+        </ul>  
+      </div> 
+
+      <h2 class="mt-5" align="center">Welcome to EasyTickets</h2>
+	
+   
+
+	<div class="container" align="center">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+			</div>
+			<div id="results" class="col-lg-8 text-center order-3"></div>
+			<div class="col-lg-4 text-center order-2">
+				<form enctype="application/json" action="/post/json" method="post">
+					
+<h2 class="text-muted">To add new tickets</h2>
+
+						<select class="form-control" name="sec_n" align="center">
+							<option value="0" >Harry Styles World Tour</option>
+							<option value="1">Kiss the final Tour</option>
+							<option value="2">Reputation Tour</option>
+						</select>
+					
+                   
+                            <th><input class="form-control" type="text" name="Types" placeholder="Types"></th>
+                            <th><input class="form-control" type="text" name="TicketsAvaliable" placeholder="TicketsAvaliable"></th>
+                            <th><input class="form-control" type="text" name="price" placeholder="Price"></th>
+                      
+                    
+					<button type="submit" class="btn btn-primary btn-block">Submit</button>
+				</form>
+              
+			</div>
+		</div>
+	</div>
+     <p></p>
+	<div class="Pics" align="center">
+
+
+<ul>
+    <img src = "images/Kiss-2020_v1_Interna.jpg" width="300" height="250">
+
+    <img src = "images/220px-Harry_Styles_Live_On_Tour.jpg" width="300" height="250">
+
+    <img src = "images/Pôster_de_Reputation_Stadium_Tour.png" width="300" height="250">
+
+</ul>
+  </div>
+
+<div class="Social" align="center">
+
+<ul><a href="https://www.facebook.com">
+    <img src="images/Facebook.jpg" width="30" height="30">
+  </a><a href="https://www.instagram.com/?hl=pt">
+    <img src="images/Instagram.jpg" width="30" height="30">
+  </a><a href="https://twitter.com/?lang=pt">
+    <img src="images/Twitter.jpg" width="30" height="30">
+    </a>
+</ul>
+  </div>
+
+
+ <footer class="footer">
+      <div class="container">
+        <span class="text-muted">&copy; Rodolfo Souza 2019</span>
+      </div>
+
+    </footer>
+	
+
+	<script src="jquery/jquery.min.js"></script>
+	<script src="jquery/table.js"></script>
+	
+</body>
+
+</html>

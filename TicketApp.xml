@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Tickets>
+  <section name="Harry Styles World Tour 2020">
+    <entree>
+      <Types>Pitch Standing</Types>
+      <TicketsAvaliable> 3 </TicketsAvaliable>
+      <price>119.95</price>
+    </entree>
+    <entree>
+      <Types>VIP</Types>
+      <TicketsAvaliable> 50 </TicketsAvaliable>
+      <price>200.95</price>
+    </entree>
+    <entree>
+      <Types>Gold</Types>
+      <TicketsAvaliable> 3 </TicketsAvaliable>
+      <price>300.95</price>
+    </entree>
+    <entree>
+      <Types>Meet</Types>
+      <TicketsAvaliable>2</TicketsAvaliable>
+      <price>200,00</price>
+    </entree>
+  </section>
+  <section name="Kiss the final Tour">
+    <entree>
+      <Types>Pitch Standing</Types>
+      <TicketsAvaliable> 3 </TicketsAvaliable>
+      <price>119.95</price>
+    </entree>
+    <entree>
+      <Types>VIP</Types>
+      <TicketsAvaliable> 0 </TicketsAvaliable>
+      <price>200.95</price>
+    </entree>
+    <entree>
+      <Types>Gold</Types>
+      <TicketsAvaliable> 3 </TicketsAvaliable>
+      <price>300.95</price>
+    </entree>
+    <entree>
+      <Types>Meet</Types>
+      <TicketsAvaliable>2</TicketsAvaliable>
+      <price>200,00</price>
+    </entree>
+  </section>
+  <section name="Reputation Tour">
+    <entree>
+      <Types>Pitch Standing</Types>
+      <TicketsAvaliable> 3 </TicketsAvaliable>
+      <price>119.95</price>
+    </entree>
+    <entree>
+      <Types>VIP</Types>
+      <TicketsAvaliable> 50 </TicketsAvaliable>
+      <price>200.95</price>
+    </entree>
+    <entree>
+      <Types>Gold</Types>
+      <TicketsAvaliable> 3 </TicketsAvaliable>
+      <price>300.95</price>
+    </entree>
+  </section>
+</Tickets>
