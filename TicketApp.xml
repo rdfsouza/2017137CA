@@ -43,6 +43,11 @@
       <TicketsAvaliable>2</TicketsAvaliable>
       <price>200,00</price>
     </entree>
+    <entree>
+      <Types>Meet</Types>
+      <TicketsAvaliable>2</TicketsAvaliable>
+      <price>200.00</price>
+    </entree>
   </section>
   <section name="Reputation Tour">
     <entree>

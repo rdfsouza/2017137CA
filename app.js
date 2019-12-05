@@ -1,3 +1,6 @@
+/* Reference https://github.com/mikhail-cct/CA1-In-class-Demo  */
+
+
 var http = require('http'), //This module provides the HTTP server functionalities
     path = require('path'), //The path module provides utilities for working with file and directory paths
     express = require('express'), //This module allows this app to respond to HTTP Requests, defines the routing and renders back the required content

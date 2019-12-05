@@ -1,3 +1,6 @@
+/* Reference https://www.w3schools.com/ used to get some css*/
+
+
 html {
   position: relative;
   min-height: 100%;
@@ -111,12 +114,17 @@ h2 {
     border-color: #412B87:
 }
 
-.selected {
-            background-color: #dc3545;
-            color: #FFF;
-}
 
 input[type=text] {
+   border: 1px solid black;
+  border-radius: 4px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  height: 40px;
+  background-color: #D49BFD;
+  
+}
+input[type=number] {
    border: 1px solid black;
   border-radius: 4px;
   -webkit-transition: width 0.4s ease-in-out;
