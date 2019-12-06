@@ -19,7 +19,7 @@
     <entree>
       <Types>Meet</Types>
       <TicketsAvaliable>2</TicketsAvaliable>
-      <price>200,00</price>
+      <price>0</price>
     </entree>
   </section>
   <section name="Kiss the final Tour">
@@ -39,14 +39,9 @@
       <price>300.95</price>
     </entree>
     <entree>
-      <Types>Meet</Types>
-      <TicketsAvaliable>2</TicketsAvaliable>
-      <price>200,00</price>
-    </entree>
-    <entree>
-      <Types>Meet</Types>
-      <TicketsAvaliable>2</TicketsAvaliable>
-      <price>200.00</price>
+      <Types>Meet greet</Types>
+      <TicketsAvaliable>6</TicketsAvaliable>
+      <price>545</price>
     </entree>
   </section>
   <section name="Reputation Tour">
@@ -64,6 +59,11 @@
       <Types>Gold</Types>
       <TicketsAvaliable> 3 </TicketsAvaliable>
       <price>300.95</price>
+    </entree>
+    <entree>
+      <Types>Meet greet</Types>
+      <TicketsAvaliable>6</TicketsAvaliable>
+      <price>900.00</price>
     </entree>
   </section>
 </Tickets>

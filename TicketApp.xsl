@@ -15,7 +15,7 @@ Concerts</th>
                             <th>Select</th>
 		                	<th>Types</th>
                             <th>Tickets Avaliable</th>
-                            <th>Price</th>
+                            <th>Price €</th>
                              <th>Buy</th>
                        </tr>
                     </thead>
@@ -27,7 +27,8 @@ Concerts</th>
                                 </td>
                             </tr>
                             <xsl:for-each select="entree">
-                                 <tr>
+                                 <tr id="{position()}">
+                                
                                       <td align="center">
                                     <input name="item0" type="checkbox" />
                                 </td>
@@ -41,12 +42,14 @@ Concerts</th>
                                         <xsl:value-of select="price" />
                                     </td>
                                     <td align="center">
-                                      <button type="button" name="item0" class="btn" >Buy Tickets</button> 
+                                      <button onclick="myFunction()" type="button" name="item0" class="btn" >Buy Tickets</button> 
                                     </td>
                                 </tr>
                             </xsl:for-each>
                         </xsl:for-each>
                     </tbody>
                 </table>
+
+                
     </xsl:template>
 </xsl:stylesheet>
